@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Love+Light&display=swap" rel="stylesheet">
+
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            font-family: "Love Light", serif;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            font-family: "Love Light", serif;
+        }
+
+        .background {
+            position: fixed;
+            top: 80%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            object-fit: cover;
+        }
+        .yes{
+            position: fixed;
+            top: 23%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 10px 52px 10px 52px;
+            background-color: rgb(33, 174, 12);
+            border: none;
+            font-size: 200pt;
+            font-weight: 900;
+        }
+        .no{
+            position: fixed;
+            top: 55%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 7px 20px 7px 20px;
+            background-color: rgb(255, 0, 0);
+            border: none;
+            font-size: 16pt;
+            font-weight: 1000;
+            
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <video class="background" src="back1.mp4" loop autoplay muted width="100%"></video>
+    </div>
+    <div class="text">
+        <button class="yes"><a href="yes.html">Yes</a></button>
+        <button class="no"><a href="no5.html">I will be very sad</a></button>
+    </div>
+</body>
+
+</html>
